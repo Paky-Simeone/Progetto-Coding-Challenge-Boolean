@@ -1,0 +1,71 @@
+/*Immagine Background e Font pagina*/
+    body{
+        background-image: url("background.jpg");
+        background-size: cover;
+        width: 1000px;
+        margin: auto;
+        padding-top: 5%;
+        font-family: Arial, sans-serif;
+    }
+
+/*Background Opaco*/
+    .opaco{
+    background: rgb(0, 0, 0, 0.6);
+    border-radius: 10px 10px 10px 10px;
+    }
+
+    .contenitore{
+    padding: 10%;
+    }
+
+/*Header e Logo pagina*/
+    .logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+
+    header > h1{
+        font-size: 30px;
+        color: rgb(0, 252, 0);
+        text-align: center;
+    }
+
+/*Bottoni navigazione*/
+    nav > div{
+        background-color: rgb(0, 252, 0);
+        text-align: center;
+        padding: 10px;
+    }
+
+/*checkbox monopattini*/
+    .Titolo{
+        font-size: 30px;
+        color: white;
+    }
+
+    .testobianco{
+        color: white;
+    }
+
+    .rettangolo{
+        width: 250px;
+        height: 20px;
+        background-color: orange;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .rettangolo2{
+        width: 400px;
+        height: 20px;
+        background-color: green;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .rettangolo3{
+        width: 150px;
+        height: 20px;
+        background-color: red;
+        border-radius: 5px 5px 5px 5px;
+    }
